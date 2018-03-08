@@ -1,0 +1,7 @@
+{
+  "name": "apollo-basic-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Marco Antônio <ma.souza.junior@gmail.com>",
+  "license": "MIT"
+}
