@@ -11,4 +11,4 @@ app.use(endpointURL, bodyParser.json(), graphqlExpress({ schema }))
 app.get('/graphiql', graphiqlExpress({ endpointURL })) // if you want GraphiQL enabled
 
 app.listen(PORT)
-console.log('App');
+console.log(`App is running on: \n- http://localhost:${PORT}/graphql\n- http://localhost:${PORT}/graphiql`);
